@@ -63,6 +63,8 @@ CORS_ALLOWED_HEADERS = [
     'accept',
 ]
 
+AUTH_USER_MODEL = 'users.User'
+
 ROOT_URLCONF = 'crud.urls'
 
 TEMPLATES = [
